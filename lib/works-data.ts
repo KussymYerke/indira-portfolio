@@ -6,7 +6,7 @@ export type WorkProject = {
   category: WorkCategory;
   excerpt: string;
   location?: string;
-  year?: string;
+year?: number | string;
   images: { src: string; alt: string }[];
 };
 
