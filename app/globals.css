@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #fbfbfa;
+  --fg: #111114;
+  --muted: #6b6b73;
+  --line: rgba(17, 17, 20, 0.1);
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  background: var(--bg);
+  color: var(--fg);
+}
+
+::selection {
+  background: rgba(17, 17, 20, 0.08);
+}
